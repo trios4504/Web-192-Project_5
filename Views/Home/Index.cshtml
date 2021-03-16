@@ -1,0 +1,68 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<link rel="stylesheet" href="~/css/Index.css" />
+
+<div id="MainContainerDiv" class="text-center">
+    <table id="MainProductTable" class="display">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <br />
+</div>
+
+<div id="RegisterDialog" title="Register user">
+    <form id="MainForm" name="registration" action="">
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <label>User</label>
+                    </td>
+                    <td>
+                        <input type="text" id="UserInput" name="UserInput" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Password</label>
+                    </td>
+                    <td>
+                        <input type="password" id="PasswordInput" name="PasswordInput" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button id="LoginButton">Log In</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</div>
+
+<div id="dialog" title="Add to lists">
+    <input type="checkbox" id="BuyFirstList" />
+    <label for="BuyFirstList">Add to Buy First List</label><br />
+
+    <input type="checkbox" id="BuyLastList" />
+    <label for="BuyLastList">Add to Buy Last List</label><br />
+
+    <input type="checkbox" id="ChristmasGiftsList" />
+    <label for="ChristmasList">Add to Christmas Gifts List</label><br />
+</div>
+
+@section Scripts
+{
+    <script src="~/js/Objects.js"></script>
+    <script src="~/js/Index.js"></script>
+}

@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/southwestuniversity/.dotnet/store/|arch|/|tfm|",
+      "/Users/southwestuniversity/.nuget/packages"
+    ]
+  }
+}

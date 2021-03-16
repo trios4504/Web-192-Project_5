@@ -1,0 +1,42 @@
+﻿#MainProductTable th, #MainProductTable td{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+img {
+    width: 100px;
+    height: 200px;
+}
+
+label.error {
+    color: red;
+}
+
+.AddIcons {
+    color: green;
+}
+
+.AddIcons:hover {
+    color: teal;
+    cursor: pointer;
+}
+
+.AddToListIcons {
+    color: steelblue;
+}
+
+    .AddToListIcons:hover {
+        color: skyblue;
+        cursor: pointer;
+    }
+
+.ui-widget-overlay {
+    background-color: "#CCC";
+    opacity: .7;
+}
+
+.ui-dialog-titlebar {
+    background-color: dodgerblue;
+    color: white;
+}
